@@ -1,3 +1,29 @@
+# Synonym Game #
+
+We created this game app as a joint project towards the end of the Web Dev Bootcamp.
+
+## Instructions ##
+
+## Our Project Experience ##
+
+### Technologies Used ###
+
+React, Tailwind, CSS Animations, Flexbox, CSS Grid & Media Queries
+
+### What We Enjoyed ###
+
+### Challenges We Met ###
+
+
+
+
+
+
+
+
+_________________________________________
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

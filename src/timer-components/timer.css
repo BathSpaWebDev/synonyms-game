@@ -1,0 +1,154 @@
+.timer-container {
+  animation: flip 5s;
+}
+
+.wood {
+  background-color: #a0522d;
+}
+.wood, .glass {
+  animation: shake 20 0.5s 40s;
+}
+
+.sand-level {
+  animation: pour 1.5s;
+}
+/*
+.sand-level-i {
+  animation: empty 1.5s;
+}*/
+
+.sand-level-a {
+  animation: pour-a 55s 5s;
+}
+.sand-level-s {
+  animation: pour-s 55s 5s;
+}
+.sand-level-b {
+  animation: pour-b 50s 10s;
+}
+.sand-level-r {
+  animation: pour-r 50s 10s;
+}
+.sand-level-c {
+  animation: pour-c 45s 15s;
+}
+.sand-level-q {
+  animation: pour-q 45s 15s;
+}
+.sand-level-d {
+  animation: pour-d 40s 20s;
+}
+.sand-level-p {
+  animation: pour-p 40s 20s;
+}
+.sand-level-e {
+  animation: pour-e 35s 25s;
+}
+.sand-level-o {
+  animation: pour-o 35s 25s;
+}
+.sand-level-f {
+  animation: pour-f 30s 30s;
+}
+.sand-level-n {
+  animation: pour-n 30s 30s;
+}
+.sand-level-g {
+  animation: pour-g 25s 35s;
+}
+.sand-level-m {
+  animation: pour-m 25s 35s;
+}
+.sand-level-h {
+  animation: pour-h 20s 40s;
+}
+.sand-level-l {
+  animation: pour-l 20s 40s;
+}
+.sand-level-i {
+  animation: pour-i 15s 45s;
+}
+.sand-level-k {
+  animation: pour-k 15s 45s;
+}
+
+@keyframes flip {
+  from { transform: rotateX(180deg); }
+}
+
+@keyframes pour {
+  to { background-color: #facc15; }
+}
+/*
+@keyframes empty {
+  to { background-color: transparent; }
+}*/
+
+@keyframes pour-a {
+  to { background-color: transparent; }
+}
+@keyframes pour-s {
+  to { background-color: #facc15; }
+}
+@keyframes pour-b {
+  to { background-color: transparent; }
+}
+@keyframes pour-r {
+  to { background-color: #facc15; }
+}
+@keyframes pour-c {
+  to { background-color: transparent; }
+}
+@keyframes pour-q {
+  to { background-color: #facc15; }
+}
+@keyframes pour-d {
+  to { background-color: transparent; }
+}
+@keyframes pour-p {
+  to { background-color: #facc15; }
+}
+@keyframes pour-e {
+  to { background-color: transparent; }
+}
+@keyframes pour-o {
+  to { background-color: #facc15; }
+}
+@keyframes pour-f {
+  to { background-color: transparent; }
+}
+@keyframes pour-n {
+  to { background-color: #facc15; }
+}
+@keyframes pour-g {
+  to { background-color: transparent; }
+}
+@keyframes pour-m {
+  to { background-color: #facc15; }
+}
+@keyframes pour-h {
+  to { background-color: transparent; }
+}
+@keyframes pour-l {
+  to { background-color: #facc15; }
+}
+@keyframes pour-i {
+  to { background-color: transparent; }
+}
+@keyframes pour-k {
+  to { background-color: #facc15; }
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20 { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
