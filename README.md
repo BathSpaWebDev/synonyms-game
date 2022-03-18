@@ -1,6 +1,6 @@
 # Synonym Game #
 
-We created this game app as a joint project towards the end of the Web Dev Bootcamp.
+We created this word game app as a joint project towards the end of the Web Dev Bootcamp.
 
 ## Instructions ##
 
