@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import { useState } from "react";
 import './App.css';
+import { Game } from './game-components/Game';
+import { Home }  from './game-components/Home';
+import { SandTimer } from './timer-components/sand-timer';
 
 function App() {
+
+const [Words, setWords] = useState([]);
+const [Answer, setAnswer] = useState('')
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App-background">
+      <Home />
+      <div class = "flex justify-around items-center">
+        <SandTimer />
+        <Game Words={Words} setWords={setWords} Answer={Answer} setAnswer = {setAnswer}/>
+      </div>
     </div>
   );
 }
